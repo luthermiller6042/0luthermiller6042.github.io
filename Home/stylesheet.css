@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	background: black;
+}
+.chair {margin: 0;
+}
+.container2 {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 380px;
+	left: 8px; 
+	margin: 0;
+
+}
+.button{
+	border: 2px solid rgba(238, 0, 117,.5);
+	border-radius: 10%;
+	width: 110px;
+	height: 30px;
+	font-family: serif;
+	background: linear-gradient(to right, rgba(204,0,255,.5) 0%, rgba(255,153,204,.5) 100% );
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: .5s;
+	box-shadow: 5px 10px black;
+
+}
+.button:hover{
+	transform: scale(1.1);
+	
+	font-weight: bold;
+	width: 150px;
+	font-size: 20px
+}
+.arrow{
+	display: flex;
+	justify-content: center;
+}
+.arrowdown{
+	border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  position: relative; 
+  bottom: 350px;
+  transform: rotate(45deg);
+  color: white;
+
+}
+.container1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	bottom: 570px;
+}
+.quote {
+	color: white;
+}
+.par1 {
+	color:white;
+	order: 2;
+	text-align: center;
+}
+.container3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	bottom: 100px;
+}
+#profile{
+	border-radius: 50%;
+	width: 250px;
+
+
+}
+.propic{
+background: linear-gradient(to right, rgba(204,0,255,.2) 0%,
+ rgba(255,153,204,.2) 100% );
+	
+}
